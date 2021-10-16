@@ -1,4 +1,5 @@
 name: "nrm-raptor-monitoring"
+output_dir: docs
 navbar:
   title: "Rovfågelövervakning"
   type: inverse
