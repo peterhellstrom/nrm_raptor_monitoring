@@ -37,7 +37,7 @@ navbar:
       icon: fa-database
       href: data.html
     - text: "Om"
-      icon: fa-info
+      icon: fa-feather-alt
       href: info-sida.html
   right:
     - icon: fa-question fa-lg
