@@ -1,0 +1,49 @@
+name: "nrm-raptor-monitoring"
+navbar:
+  title: "Rovfågelövervakning"
+  type: inverse
+  left:
+    - text: "Hem"
+      icon: fa-home
+      href: index.html
+    - text: "Projekt"
+      icon: fa-crow
+      menu:
+        - text: "Miljöövervakning"
+        - text: "Havsörn"
+          href: page-a-havsorn.html
+        - text: Rovdjursinventering
+        - text: "Kungsörn"
+          href: page-b-kungsorn.html
+        - text: "---------"
+        - text: "Fjällarter"
+        - text: "Fjällvråk"
+          href: page-c-fjallvrak.html
+        - text: "Jaktfalk"
+          href: page-d-jaktfalk.html
+        - text: "Fjälluggla"
+          href: page-e-fjalluggla.html
+    - text: Inventering
+      icon: fa-binoculars
+      href: metodik.html
+    - text: Naturvård
+      icon: fa-tree
+      href: naturvard.html
+    - text: Dokument
+      icon: fa-folder-open
+      href: dokument.html
+    - text: Data
+      icon: fa-database
+      href: data.html
+    - text: "Om"
+      icon: fa-info
+      href: about.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+      after_body: footer.html
