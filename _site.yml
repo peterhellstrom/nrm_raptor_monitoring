@@ -7,26 +7,26 @@ navbar:
     - text: "Hem"
       icon: fa-home
       href: index.html
-    - text: "Projekt"
+    - text: "Arter"
       icon: fa-crow
       menu:
         - text: "Miljöövervakning"
         - text: "Havsörn"
-          href: page-a-havsorn.html
+          href: info-havsorn.html
         - text: Rovdjursinventering
         - text: "Kungsörn"
-          href: page-b-kungsorn.html
+          href: info-kungsorn.html
         - text: "---------"
         - text: "Fjällarter"
         - text: "Fjällvråk"
-          href: page-c-fjallvrak.html
+          href: info-fjallvrak.html
         - text: "Jaktfalk"
-          href: page-d-jaktfalk.html
+          href: info-jaktfalk.html
         - text: "Fjälluggla"
-          href: page-e-fjalluggla.html
+          href: info-fjalluggla.html
     - text: Inventering
       icon: fa-binoculars
-      href: metodik.html
+      href: inventering.html
     - text: Naturvård
       icon: fa-tree
       href: naturvard.html
@@ -38,7 +38,7 @@ navbar:
       href: data.html
     - text: "Om"
       icon: fa-info
-      href: about.html
+      href: info-sida.html
   right:
     - icon: fa-question fa-lg
       href: https://example.com
