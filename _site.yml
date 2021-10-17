@@ -30,12 +30,15 @@ navbar:
     - text: Naturvård
       icon: fa-tree
       href: naturvard.html
-    - text: Dokument
-      icon: fa-folder-open
-      href: dokument.html
-    - text: Data
-      icon: fa-database
-      href: data.html
+    - text: "Hämta"
+      icon: fa-download
+      menu:
+        - text: Data
+          icon: fa-database
+          href: data.html
+        - text: Dokument
+          icon: fa-folder-open
+          href: dokument.html
     - text: "Kontakt"
       icon: fa-feather-alt
       href: kontakt.html
