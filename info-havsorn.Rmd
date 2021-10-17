@@ -17,3 +17,6 @@ yyy
 Test
 
 # Ringmärkning
+
+# Boplatser
+![Havsörnsbo i Lappland](bilder/haorn-bo-1.jpg){width=50%}
