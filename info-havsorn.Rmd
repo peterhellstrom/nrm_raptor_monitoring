@@ -19,13 +19,24 @@ Test
 # Ringmärkning
 
 # Boplatser
-![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%}
+<!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
 
-```{r image_grobs, fig.show = "hold", out.width = "50%", fig.align = "default"}
+```{r image_grobs, fig.show = "hold", out.width = "50%", fig.align = "default", fig.cap='Två **havsörnsbon** i Lappland', echo = FALSE}
 
 knitr::include_graphics("bilder/haorn-bo-1.jpg")
-
 knitr::include_graphics("bilder/haorn-bo-2.jpg")
 
 ```
 
+<div class = "row">
+  
+<div class = "col-md-6">
+<br><br>Since R Markdown use the [bootstrap framework](https://getbootstrap.com/docs/4.0/layout/grid/) under the hood. It is possible to benefit its powerful grid system. Basically, you can consider that your row is divided in 12 subunits of same width. You can then choose to use only a few of this subunits.
+</div>
+
+<div class = "col-md-6">
+```{r, message=FALSE, echo=FALSE, fig.cap='**Havsörnsbo** vid Piteälven i Lappland'}
+knitr::include_graphics("bilder/haorn-bo-1.jpg")
+```
+</div>
+</div>

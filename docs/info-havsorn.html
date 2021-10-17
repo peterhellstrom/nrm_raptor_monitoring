@@ -367,11 +367,26 @@ $(document).ready(function () {
 </div>
 <div id="boplatser" class="section level1">
 <h1>Boplatser</h1>
-<p><img src="bilder/haorn-bo-1.jpg" style="width:45.0%" /> <img src="bilder/haorn-bo-2.jpg" style="width:45.0%" /></p>
-<pre class="r"><code>knitr::include_graphics(&quot;bilder/haorn-bo-1.jpg&quot;)
-
-knitr::include_graphics(&quot;bilder/haorn-bo-2.jpg&quot;)</code></pre>
-<p><img src="bilder/haorn-bo-1.jpg" width="50%" /><img src="bilder/haorn-bo-2.jpg" width="50%" /></p>
+<!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
+<div class="figure">
+<img src="bilder/haorn-bo-1.jpg" alt="Två **havsörnsbon** i Lappland" width="50%" /><img src="bilder/haorn-bo-2.jpg" alt="Två **havsörnsbon** i Lappland" width="50%" />
+<p class="caption">
+Två <strong>havsörnsbon</strong> i Lappland
+</p>
+</div>
+<div class="row">
+<div class="col-md-6">
+<p><br><br>Since R Markdown use the <a href="https://getbootstrap.com/docs/4.0/layout/grid/">bootstrap framework</a> under the hood. It is possible to benefit its powerful grid system. Basically, you can consider that your row is divided in 12 subunits of same width. You can then choose to use only a few of this subunits.</p>
+</div>
+<div class="col-md-6">
+<div class="figure">
+<img src="bilder/haorn-bo-1.jpg" alt="**Havsörnsbo** vid Piteälven i Lappland" width="1238" />
+<p class="caption">
+<strong>Havsörnsbo</strong> vid Piteälven i Lappland
+</p>
+</div>
+</div>
+</div>
 </div>
 
 <p>Copyright &copy; 2021 Naturhistoriska riksmuseet</p>
