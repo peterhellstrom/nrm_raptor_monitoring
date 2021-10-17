@@ -35,7 +35,7 @@ knitr::include_graphics("bilder/haorn-bo-2.jpg")
 </div>
 
 <div class = "col-md-6">
-```{r, message = FALSE, echo = FALSE, fig.cap = '**Havsörnsbo** vid Piteälven i Lappland', fig.link = "bilder/haorn-bo-1-220-dpi-jpg"}
+```{r, message = FALSE, echo = FALSE, fig.cap = '**Havsörnsbo** vid Piteälven i Lappland', fig.link = "bilder/haorn-bo-1-220-dpi.jpg"}
 knitr::include_graphics("bilder/haorn-bo-1.jpg")
 ```
 </div>
