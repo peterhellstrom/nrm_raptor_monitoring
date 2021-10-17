@@ -19,4 +19,13 @@ Test
 # Ringmärkning
 
 # Boplatser
-![Havsörnsbo i Lappland](bilder/haorn-bo-1.jpg){width=50%}
+![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%}
+
+```{r image_grobs, fig.show = "hold", out.width = "50%", fig.align = "default"}
+
+knitr::include_graphics("bilder/haorn-bo-1.jpg")
+
+knitr::include_graphics("bilder/haorn-bo-2.jpg")
+
+```
+
