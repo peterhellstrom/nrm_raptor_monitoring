@@ -1,5 +1,5 @@
 ---
-title: "Inventeringsmetodik"
+title: "Inventering"
 ---
 
 Beskriv metoder och undersökningsmanualer

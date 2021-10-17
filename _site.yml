@@ -33,12 +33,15 @@ navbar:
     - text: "Hämta"
       icon: fa-download
       menu:
+        - text: Bilder
+          icon: fa-camera
+          href: hamta-bilder.html
         - text: Dokument
           icon: fa-folder-open
-          href: dokument.html
+          href: hamta-dokument.html
         - text: Data
           icon: fa-database
-          href: data.html
+          href: hamta-data.html
     - text: "Om"
       icon: fa-feather-alt
       href: kontakt.html
