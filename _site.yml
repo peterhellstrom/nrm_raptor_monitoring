@@ -36,9 +36,9 @@ navbar:
     - text: Data
       icon: fa-database
       href: data.html
-    - text: "Om"
+    - text: "Kontakt"
       icon: fa-feather-alt
-      href: info-sida.html
+      href: kontakt.html
   right:
     - icon: fa-question fa-lg
       href: https://example.com

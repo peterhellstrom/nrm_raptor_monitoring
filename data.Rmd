@@ -2,4 +2,6 @@
 title: "Öppna data"
 ---
 
-Här finns öppna data
+Här ska (öppna) data kunna hämtas eller länkas till.
+
+Beskriv äganderätt och licenser?
