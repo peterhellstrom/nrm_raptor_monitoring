@@ -33,18 +33,15 @@ navbar:
     - text: "Hämta"
       icon: fa-download
       menu:
-        - text: Data
-          icon: fa-database
-          href: data.html
         - text: Dokument
           icon: fa-folder-open
           href: dokument.html
-    - text: "Kontakt"
+        - text: Data
+          icon: fa-database
+          href: data.html
+    - text: "Om"
       icon: fa-feather-alt
       href: kontakt.html
-  right:
-    - icon: fa-question fa-lg
-      href: https://example.com
 output:
   html_document:
     theme: readable
