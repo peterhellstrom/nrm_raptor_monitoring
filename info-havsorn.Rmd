@@ -21,11 +21,21 @@ Test
 # Boplatser
 <!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
 
-```{r image_grobs, fig.show = "hold", out.width = "50%", fig.align = "default", fig.cap='Två **havsörnsbon** i Lappland', echo = FALSE}
+```{r image_grobs, fig.show = "hold", out.width = "40%", fig.align = "default", fig.cap='Två **havsörnsbon** i Lappland', echo = TRUE}
 
 knitr::include_graphics("bilder/haorn-bo-1.jpg")
 knitr::include_graphics("bilder/haorn-bo-2.jpg")
 
+```
+
+```{r echo = TRUE}
+images = paste0('bilder/haorn-bo-', 1:2, '.jpg')
+images_hi_res = paste0('bilder/haorn-bo-', 1:2, '-220-dpi.jpg')
+images_caps <- c("A", "B")
+```
+
+```{r, out.width = "40%", fig.link = images_hi_res, fig_show = "hold", fig.cap = "A", fig.align = "default", echo = TRUE}
+knitr::include_graphics(images)
 ```
 
 <div class = "row">

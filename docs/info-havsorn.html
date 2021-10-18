@@ -375,10 +375,28 @@ $(document).ready(function () {
 <div id="boplatser" class="section level1">
 <h1>Boplatser</h1>
 <!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
+<pre class="r"><code>knitr::include_graphics(&quot;bilder/haorn-bo-1.jpg&quot;)
+knitr::include_graphics(&quot;bilder/haorn-bo-2.jpg&quot;)</code></pre>
 <div class="figure">
-<img src="bilder/haorn-bo-1.jpg" alt="Två **havsörnsbon** i Lappland" width="50%" /><img src="bilder/haorn-bo-2.jpg" alt="Två **havsörnsbon** i Lappland" width="50%" />
+<img src="bilder/haorn-bo-1.jpg" alt="Två **havsörnsbon** i Lappland" width="40%" /><img src="bilder/haorn-bo-2.jpg" alt="Två **havsörnsbon** i Lappland" width="40%" />
 <p class="caption">
 Två <strong>havsörnsbon</strong> i Lappland
+</p>
+</div>
+<pre class="r"><code>images = paste0(&#39;bilder/haorn-bo-&#39;, 1:2, &#39;.jpg&#39;)
+images_hi_res = paste0(&#39;bilder/haorn-bo-&#39;, 1:2, &#39;-220-dpi.jpg&#39;)
+images_caps &lt;- c(&quot;A&quot;, &quot;B&quot;)</code></pre>
+<pre class="r"><code>knitr::include_graphics(images)</code></pre>
+<div class="figure">
+<a href="bilder/haorn-bo-1-220-dpi.jpg" target="_blank"><img src="bilder/haorn-bo-1.jpg" alt="A" width="40%" /></a>
+<p class="caption">
+A
+</p>
+</div>
+<div class="figure">
+<a href="bilder/haorn-bo-2-220-dpi.jpg" target="_blank"><img src="bilder/haorn-bo-2.jpg" alt="B" width="40%" /></a>
+<p class="caption">
+B
 </p>
 </div>
 <div class="row">
