@@ -3,3 +3,6 @@ title: "Kungsörn"
 ---
 
 Kungsörn ingår i rovdjursinventeringen.
+
+Senaste sammanställningen av resultat:
+[Tabell](kungsorn_sum_arsposter.html)
