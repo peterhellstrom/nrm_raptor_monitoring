@@ -1,4 +1,4 @@
-name: "nrm-raptor-monitoring"
+name: "nrm_raptor_monitoring"
 output_dir: docs
 navbar:
   title: "Rovfågelövervakning"
