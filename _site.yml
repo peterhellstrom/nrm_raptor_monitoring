@@ -12,18 +12,18 @@ navbar:
       menu:
         - text: "Miljöövervakning"
         - text: "Havsörn"
-          href: info-havsorn.html
+          href: havsorn.html
         - text: Rovdjursinventering
         - text: "Kungsörn"
-          href: info-kungsorn.html
+          href: kungsorn.html
         - text: "---------"
         - text: "Fjällarter"
         - text: "Fjällvråk"
-          href: info-fjallvrak.html
+          href: fjallvrak.html
         - text: "Jaktfalk"
-          href: info-jaktfalk.html
+          href: jaktfalk.html
         - text: "Fjälluggla"
-          href: info-fjalluggla.html
+          href: fjalluggla.html
     - text: Inventering
       icon: fa-binoculars
       href: inventering.html
@@ -35,13 +35,13 @@ navbar:
       menu:
         - text: Bilder
           icon: fa-camera
-          href: hamta-bilder.html
+          href: bilder.html
         - text: Dokument
           icon: fa-folder-open
-          href: hamta-dokument.html
+          href: dokument.html
         - text: Data
           icon: fa-database
-          href: hamta-data.html
+          href: data.html
     - text: "Om"
       icon: fa-feather-alt
       href: kontakt.html

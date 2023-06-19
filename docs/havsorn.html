@@ -11,7 +11,7 @@
 
 
 
-<title>Fjällvråk</title>
+<title>Havsörn</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -262,22 +262,22 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-header">Miljöövervakning</li>
     <li>
-      <a href="info-havsorn.html">Havsörn</a>
+      <a href="havsorn.html">Havsörn</a>
     </li>
     <li class="dropdown-header">Rovdjursinventering</li>
     <li>
-      <a href="info-kungsorn.html">Kungsörn</a>
+      <a href="kungsorn.html">Kungsörn</a>
     </li>
     <li class="divider"></li>
     <li class="dropdown-header">Fjällarter</li>
     <li>
-      <a href="info-fjallvrak.html">Fjällvråk</a>
+      <a href="fjallvrak.html">Fjällvråk</a>
     </li>
     <li>
-      <a href="info-jaktfalk.html">Jaktfalk</a>
+      <a href="jaktfalk.html">Jaktfalk</a>
     </li>
     <li>
-      <a href="info-fjalluggla.html">Fjälluggla</a>
+      <a href="fjalluggla.html">Fjälluggla</a>
     </li>
   </ul>
 </li>
@@ -305,21 +305,21 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hamta-bilder.html">
+      <a href="bilder.html">
         <span class="fa fa-camera"></span>
          
         Bilder
       </a>
     </li>
     <li>
-      <a href="hamta-dokument.html">
+      <a href="dokument.html">
         <span class="fa fa-folder-open"></span>
          
         Dokument
       </a>
     </li>
     <li>
-      <a href="hamta-data.html">
+      <a href="data.html">
         <span class="fa fa-database"></span>
          
         Data
@@ -346,16 +346,76 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Fjällvråk</h1>
+<h1 class="title toc-ignore">Havsörn</h1>
 
 </div>
 
 
-<p>Fjällvråk, smågnagare</p>
-<div id="inventeringsområde" class="section level1">
-<h1>Inventeringsområde</h1>
-<div id="stora-sjöfallet" class="section level2">
-<h2>Stora Sjöfallet</h2>
+<div id="bakgrund" class="section level1">
+<h1>Bakgrund</h1>
+<p>Havsörn har inventerats årligen i Sverige sedan 1964. Sedan 1989
+ingår den del av beståndet som häckar vid kust och hav i den Nationella
+Miljövervakningen.</p>
+</div>
+<div id="utbredning-och-förekomst" class="section level1">
+<h1>Utbredning och förekomst</h1>
+<p>xxx</p>
+</div>
+<div id="uppskattning-av-antal-par" class="section level1">
+<h1>Uppskattning av antal par</h1>
+<p>yyy</p>
+</div>
+<div id="inventeringsresultat" class="section level1">
+<h1>Inventeringsresultat</h1>
+<div id="rapport-för-2021" class="section level2">
+<h2>Rapport för 2021</h2>
+<p>Test</p>
+</div>
+</div>
+<div id="ringmärkning" class="section level1">
+<h1>Ringmärkning</h1>
+</div>
+<div id="boplatser" class="section level1">
+<h1>Boplatser</h1>
+<!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
+<pre class="r"><code>knitr::include_graphics(&quot;bilder/haorn-bo-1.jpg&quot;)
+knitr::include_graphics(&quot;bilder/haorn-bo-2.jpg&quot;)</code></pre>
+<div class="figure">
+<img src="bilder/haorn-bo-1.jpg" alt="Två **havsörnsbon** i Lappland" width="40%" /><img src="bilder/haorn-bo-2.jpg" alt="Två **havsörnsbon** i Lappland" width="40%" />
+<p class="caption">
+Två <strong>havsörnsbon</strong> i Lappland
+</p>
+</div>
+<pre class="r"><code>images = paste0(&#39;bilder/haorn-bo-&#39;, 1:2, &#39;.jpg&#39;)
+images_hi_res = paste0(&#39;bilder/haorn-bo-&#39;, 1:2, &#39;-220-dpi.jpg&#39;)
+images_caps &lt;- c(&quot;A&quot;, &quot;B&quot;)</code></pre>
+<pre class="r"><code>knitr::include_graphics(images)</code></pre>
+<div class="figure">
+<a href="bilder/haorn-bo-1-220-dpi.jpg" target="_blank"><img src="bilder/haorn-bo-1.jpg" alt="A" width="40%" /></a>
+<p class="caption">
+A
+</p>
+</div>
+<div class="figure">
+<a href="bilder/haorn-bo-2-220-dpi.jpg" target="_blank"><img src="bilder/haorn-bo-2.jpg" alt="A" width="40%" /></a>
+<p class="caption">
+A
+</p>
+</div>
+<div class="row">
+<div class="col-md-6">
+<p><br><br>Since R Markdown use the <a
+href="https://getbootstrap.com/docs/4.0/layout/grid/">bootstrap
+framework</a> under the hood. It is possible to benefit its powerful
+grid system. Basically, you can consider that your row is divided in 12
+subunits of same width. You can then choose to use only a few of this
+subunits.</p>
+</div>
+<div class="col-md-6">
+<p><a href="bilder/haorn-bo-1-220-dpi.jpg"><img
+src="bilder/haorn-bo-1.jpg"
+alt="Havsörnsbo vid Piteälven i Lappland" /></a></p>
+</div>
 </div>
 </div>
 
