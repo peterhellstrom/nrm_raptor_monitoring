@@ -3,3 +3,9 @@ title: "Inventering"
 ---
 
 Beskriv metoder och undersökningsmanualer
+
+## Metoder {.tabset .tabset-fade .tabset-pills}
+
+### Helikopter
+
+### Från marken
