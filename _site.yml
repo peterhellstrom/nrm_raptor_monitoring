@@ -1,7 +1,10 @@
 name: "nrm_raptor_monitoring"
 output_dir: docs
 navbar:
-  title: "Rovfågelövervakning"
+  logo:
+    image: images/nrm-logo-liggande-svensk-fullfarg.png
+    href: https://www.nrm.se
+  title: '<div><img src="images/nrm-logo-staende-svensk-fullfarg-crop.png" height="50"></img>Rovfågelövervakning</div>'
   type: inverse
   left:
     - text: "Hem"

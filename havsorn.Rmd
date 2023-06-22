@@ -13,24 +13,24 @@ yyy
 
 # Inventeringsresultat
 
-## Rapport för 2021
+## Rapport för 2021-2023
 Test
 
 # Ringmärkning
 
 # Boplatser
-<!-- ![](bilder/haorn-bo-1.jpg){width=45%} ![](bilder/haorn-bo-2.jpg){width=45%} -->
+<!-- ![](images/haorn-bo-1.jpg){width=45%} ![](images/haorn-bo-2.jpg){width=45%} -->
 
 ```{r image_grobs, fig.show = "hold", out.width = "40%", fig.align = "default", fig.cap='Två **havsörnsbon** i Lappland', echo = TRUE}
 
-knitr::include_graphics("bilder/haorn-bo-1.jpg")
-knitr::include_graphics("bilder/haorn-bo-2.jpg")
+knitr::include_graphics("images/haorn-bo-1.jpg")
+knitr::include_graphics("images/haorn-bo-2.jpg")
 
 ```
 
 ```{r echo = TRUE}
-images = paste0('bilder/haorn-bo-', 1:2, '.jpg')
-images_hi_res = paste0('bilder/haorn-bo-', 1:2, '-220-dpi.jpg')
+images = paste0('images/haorn-bo-', 1:2, '.jpg')
+images_hi_res = paste0('images/haorn-bo-', 1:2, '-220-dpi.jpg')
 images_caps <- c("A", "B")
 ```
 
@@ -45,8 +45,8 @@ knitr::include_graphics(images)
 </div>
 
 <div class = "col-md-6">
-```{r, message = FALSE, echo = FALSE, fig.cap = '**Havsörnsbo** vid Piteälven i Lappland', fig.link = "bilder/haorn-bo-1-220-dpi.jpg"}
-knitr::include_graphics("bilder/haorn-bo-1.jpg")
+```{r, message = FALSE, echo = FALSE, fig.cap = '**Havsörnsbo** vid Piteälven i Lappland', fig.link = "images/haorn-bo-1-220-dpi.jpg"}
+knitr::include_graphics("images/haorn-bo-1.jpg")
 ```
 </div>
 </div>
